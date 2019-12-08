@@ -1,8 +1,10 @@
 name: format-pr
 
 on:
+  # schedule:
+  #   - cron: '0 0 * * *'
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '05,17,29,41,53 * * * *'
 
 jobs:
   build:
