@@ -1,4 +1,4 @@
 
-function foo(a,        b)
-            body
-        end
+function foo(a, b)
+    body
+end
