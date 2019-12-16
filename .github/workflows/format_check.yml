@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install JuliaFormatter and format
         run: |
-          julia  -e 'import Pkg; Pkg.add("JuliaFormatter")'
+          julia  -e 'import Pkg; Pkg.add("JuliaFormatter", version="0.1.41")'
           julia  -e 'using JuliaFormatter; format(".")'
       - name: Format check
         run: |
