@@ -2,7 +2,7 @@ name: format-pr
 
 on:
   schedule:
-    - cron: '2 * * * *'
+    - cron: '* * * * *'
 jobs:
   build:
     runs-on: ${{ matrix.os }}

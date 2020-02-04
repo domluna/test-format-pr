@@ -1,4 +1,4 @@
-name: juliaformatter-command
+name: JuliaFormatter.jl format command
 on:
   repository_dispatch:
     types: [juliaformatter-command]
